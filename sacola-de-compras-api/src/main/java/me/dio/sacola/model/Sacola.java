@@ -12,7 +12,7 @@ import java.util.List;
 
 @AllArgsConstructor
 @Builder
-@Data
+@Data // Define os Gets e Setts
 @Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @NoArgsConstructor
@@ -27,7 +27,7 @@ public class Sacola {
     private Cliente cliente;
 
     @OneToMany(cascade = CascadeType.ALL)
-    private List<Item> listaItens;
+    private List<Item> itens;
 
     private Double valorTotal;
 
