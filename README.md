@@ -1,12 +1,12 @@
 
-<h1 align="center">Sacola de Compras API</h1>
+<h1>Sacola de Compras API</h1>
 
-<p align="center">Uma API "Sacola de Compras" para Servir uma Aplicação com Domínio de Delivery</p>
-<p align="center"><a style="text-decoration:none" href="https://github.com/cami-la/sacola-api_IFOOD_DEV_WEEK">Repositório</a> do projeto original</p>
+<p>Uma API "Sacola de Compras" para Servir uma Aplicação com Domínio de Delivery</p>
+<p><a style="text-decoration:none" href="https://github.com/cami-la/sacola-api_IFOOD_DEV_WEEK">Repositório</a> do projeto original</p>
 
 <br>
 
-<table align="center">
+<table>
 <tr>
 	<th>Status do Projeto</th>
 </tr>
@@ -17,7 +17,7 @@
 
 <br>
 
-<table align="center">
+<table>
 <tr>
 	<th>Features</th>
 </tr>
@@ -38,12 +38,12 @@
 
 <br>
 
-<p align="center">
-<img style="weight=480px" align="center" src="./attachments/Diagrama ER.png">
+<p>
+<img style="weight=360px" src="./attachments/Diagrama ER.png">
 </p>
 
-<h3 align="center">Requisitos</h3>
-<table align="center">
+<h3 >Requisitos</h3>
+<table>
 <tr>
 	<th>Ferramenta</th>
 	<th>Versão</th>
@@ -72,9 +72,9 @@
 
 <br>
 
-<h3 align="center">Tecnologias Utilizadas</h3>
+<h3>Tecnologias Utilizadas</h3>
 
-<table align="center">
+<table>
 <tr>
 	<th>&#9881 Dependência</th>
 	<th>Versão</th>
@@ -104,3 +104,8 @@
 	<td>2.1.214</td>
 </tr>
 </table>
+
+<h3>Testes Swagger</h3>
+<p>Foram realizados testes dos métodos na ferramenta Swagger. As imagens dos testes constam na pasta attachments</p>
+<br>
+<h4 href="http://localhost:8080/swagger-ui/#/">http://localhost:8080/swagger-ui/</h4>
